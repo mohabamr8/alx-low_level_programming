@@ -5,15 +5,12 @@
   */
 int main(void)
 {
-int n = 65;
-for (n = 97; n < 123; n++)
-{
-	putchar(n);
-}
-for (n = 65; n < 90; n++)
-{
-	putchar(n);
-}
+	int ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
 putchar('\n');
 return (0);
 }
