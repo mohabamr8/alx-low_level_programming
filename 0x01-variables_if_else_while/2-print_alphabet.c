@@ -5,7 +5,11 @@
   */
 int main(void)
 {
-putchar(65);
+int n = 97;
+	for(n = 97; n < 123; n++)
+	{
+		putchar(n);
+	}
 putchar('\n');
-return (0);
+	return (0);
 }
