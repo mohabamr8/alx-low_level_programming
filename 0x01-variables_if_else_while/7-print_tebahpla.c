@@ -6,7 +6,7 @@
 int main(void)
 {
 int n;
-for (n = 122; n > 98 ; n++)
+for (n = 122; n > 98 ; n--)
 	putchar(n);
 putchar('\n');
 return (0);
