@@ -6,6 +6,7 @@
  * @s: string to be converted
  *
  * Return: the int converted from the string
+ * end file
  */
 int _atoi(char *s)
 {
