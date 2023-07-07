@@ -7,7 +7,7 @@
  * @m: second number
  *
  * Return: number of bits to change
- * End file 
+ * End file
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
